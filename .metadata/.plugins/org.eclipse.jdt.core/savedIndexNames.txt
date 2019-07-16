@@ -1,0 +1,15 @@
+INDEX VERSION 1.131+/home/sar/jws/jackson-ex/.metadata/.plugins/org.eclipse.jdt.core
+1335730169.index
+2320055510.index
+2332731998.index
+4059184231.index
+3865469050.index
+3362124654.index
+988492321.index
+2048434502.index
+2130938951.index
+4288633488.index
+1942364823.index
+920873237.index
+3571392896.index
+2105328223.index

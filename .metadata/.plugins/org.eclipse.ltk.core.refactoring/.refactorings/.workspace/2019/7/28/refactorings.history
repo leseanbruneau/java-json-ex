@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jackson-core&apos; to &apos;java-csv-json-ex&apos;" description="Rename resource &apos;jackson-core&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/jackson-core" name="java-csv-json-ex" stamp="1563027920088" updateReferences="true"/>
+</session>

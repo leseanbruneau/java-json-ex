@@ -1,0 +1,87 @@
+package com.leseanbruneau;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+
+public class MainApp {
+
+	public static void main(String[] args) throws IOException {
+		
+		String line = "";
+		String[] raceData = new String[29];
+		RaceResultBean horseRace = new RaceResultBean();
+		List<RaceResultBean> horseRaces = new ArrayList<RaceResultBean>();
+		
+		File inFile = new File("/home/sar/temp/20190711-01.txt");
+		File outJSONFile = new File("/home/sar/temp/20190711-01.json");
+		
+		BufferedReader brRaceResultsList = new BufferedReader(new FileReader(inFile));
+		
+		line = brRaceResultsList.readLine();
+		
+		while(line != null) {
+			horseRace = new RaceResultBean();
+			
+			raceData = line.split(",");
+			
+			System.out.println("raceData Length: " + raceData.length);
+			
+			if(raceData.length < 29) {
+				line = brRaceResultsList.readLine();
+				continue;
+			}
+			System.out.println(line);
+			
+			horseRace.getRaceDate();
+			horseRace.getsDay();
+			horseRace.getRaceNum();
+			horseRace.getType();
+			horseRace.getSurface();
+			horseRace.getDistLen();
+			horseRace.getDistMea();
+			horseRace.getPurse();
+			horseRace.getNumHorses();
+			horseRace.getFin1();
+			horseRace.getPrgNum1();
+			horseRace.getfOdds1();
+			horseRace.getpTFav1();
+			horseRace.getFin2();
+			horseRace.getPrgNum2();
+			horseRace.getfOdds2();
+			horseRace.getpTFav2();
+			horseRace.getfOdds2();
+			horseRace.getpTFav2();
+			horseRace.getFin3();
+			horseRace.getPrgNum3();
+			horseRace.getfOdds3();
+			horseRace.getpTFav3();
+			horseRace.getFin4();
+			horseRace.getPrgNum4();
+			horseRace.getfOdds4();
+			horseRace.getpTFav4();
+			
+			horseRaces.add(horseRace);
+			
+			line = brRaceResultsList.readLine();
+
+		}
+		
+		ObjectMapper objectMapper = new ObjectMapper();
+		
+		//configure Object Mapper for pretty print
+		objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+		objectMapper.writeValue(outJSONFile, horseRaces);
+		
+		brRaceResultsList.close();
+		
+
+	}
+
+}

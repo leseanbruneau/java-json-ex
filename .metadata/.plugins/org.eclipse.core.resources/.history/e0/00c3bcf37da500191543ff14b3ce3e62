@@ -1,0 +1,30 @@
+package com.leseanbruneau;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainApp {
+
+	public static void main(String[] args) throws IOException {
+		
+		String line = "";
+		String[] raceData = new String[29];
+		RaceResultBean horseRace = new RaceResultBean();
+		List<RaceResultBean> horseRaces = new ArrayList<RaceResultBean>();
+		
+		File inFile = new File("~/temp/20190711-01.txt");
+		File outFile = new File("/home/sar/temp/20190711-01.json");
+		
+		BufferedReader brRaceResultsList = new BufferedReader(new FileReader(inFile));
+		
+		line = brRaceResultsList.readLine();
+		
+		System.out.println(line);
+
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;java-csv-json-ex&apos; to &apos;java-maven-csv-json-ex&apos;" description="Rename resource &apos;java-csv-json-ex&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/java-csv-json-ex" name="java-maven-csv-json-ex" stamp="1563238017143" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SampleData&apos; to &apos;sampleData&apos;" description="Rename resource &apos;SampleData&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SampleData" name="sampleData" stamp="1563239855095" updateReferences="true"/>
+</session>

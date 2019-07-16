@@ -1,0 +1,209 @@
+package com.leseanbruneau;
+
+public class RaceResultBean {
+	private String raceDate;
+	private String sDay;
+	private String raceNum;
+	private String type;
+	private String surface;
+	private String distLen;
+	private String distMea;
+	private String purse;
+	private String numHorses;
+	private String fin1;
+	private String prgNum1;
+	private String ppNum1;
+	private String fOdds1;
+	private String pTFav1;
+	private String fin2;
+	private String prgNum2;
+	private String ppNum2;
+	private String fOdds2;
+	private String pTFav2;
+	private String fin3;
+	private String prgNum3;
+	private String ppNum3;
+	private String fOdds3;
+	private String pTFav3;
+	private String fin4;
+	private String prgNum4;
+	private String ppNum4;
+	private String fOdds4;
+	private String pTFav4;
+	
+	public String getRaceDate() {
+		return raceDate;
+	}
+	public void setRaceDate(String raceDate) {
+		this.raceDate = raceDate;
+	}
+	public String getsDay() {
+		return sDay;
+	}
+	public void setsDay(String sDay) {
+		this.sDay = sDay;
+	}
+	public String getRaceNum() {
+		return raceNum;
+	}
+	public void setRaceNum(String raceNum) {
+		this.raceNum = raceNum;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getSurface() {
+		return surface;
+	}
+	public void setSurface(String surface) {
+		this.surface = surface;
+	}
+	public String getDistLen() {
+		return distLen;
+	}
+	public void setDistLen(String distLen) {
+		this.distLen = distLen;
+	}
+	public String getDistMea() {
+		return distMea;
+	}
+	public void setDistMea(String distMea) {
+		this.distMea = distMea;
+	}
+	public String getPurse() {
+		return purse;
+	}
+	public void setPurse(String purse) {
+		this.purse = purse;
+	}
+	public String getNumHorses() {
+		return numHorses;
+	}
+	public void setNumHorses(String numHorses) {
+		this.numHorses = numHorses;
+	}
+	public String getFin1() {
+		return fin1;
+	}
+	public void setFin1(String fin1) {
+		this.fin1 = fin1;
+	}
+	public String getPrgNum1() {
+		return prgNum1;
+	}
+	public void setPrgNum1(String prgNum1) {
+		this.prgNum1 = prgNum1;
+	}
+	public String getPpNum1() {
+		return ppNum1;
+	}
+	public void setPpNum1(String ppNum1) {
+		this.ppNum1 = ppNum1;
+	}
+	public String getfOdds1() {
+		return fOdds1;
+	}
+	public void setfOdds1(String fOdds1) {
+		this.fOdds1 = fOdds1;
+	}
+	public String getpTFav1() {
+		return pTFav1;
+	}
+	public void setpTFav1(String pTFav1) {
+		this.pTFav1 = pTFav1;
+	}
+	public String getFin2() {
+		return fin2;
+	}
+	public void setFin2(String fin2) {
+		this.fin2 = fin2;
+	}
+	public String getPrgNum2() {
+		return prgNum2;
+	}
+	public void setPrgNum2(String prgNum2) {
+		this.prgNum2 = prgNum2;
+	}
+	public String getPpNum2() {
+		return ppNum2;
+	}
+	public void setPpNum2(String ppNum2) {
+		this.ppNum2 = ppNum2;
+	}
+	public String getfOdds2() {
+		return fOdds2;
+	}
+	public void setfOdds2(String fOdds2) {
+		this.fOdds2 = fOdds2;
+	}
+	public String getpTFav2() {
+		return pTFav2;
+	}
+	public void setpTFav2(String pTFav2) {
+		this.pTFav2 = pTFav2;
+	}
+	public String getFin3() {
+		return fin3;
+	}
+	public void setFin3(String fin3) {
+		this.fin3 = fin3;
+	}
+	public String getPrgNum3() {
+		return prgNum3;
+	}
+	public void setPrgNum3(String prgNum3) {
+		this.prgNum3 = prgNum3;
+	}
+	public String getPpNum3() {
+		return ppNum3;
+	}
+	public void setPpNum3(String ppNum3) {
+		this.ppNum3 = ppNum3;
+	}
+	public String getfOdds3() {
+		return fOdds3;
+	}
+	public void setfOdds3(String fOdds3) {
+		this.fOdds3 = fOdds3;
+	}
+	public String getpTFav3() {
+		return pTFav3;
+	}
+	public void setpTFav3(String pTFav3) {
+		this.pTFav3 = pTFav3;
+	}
+	public String getFin4() {
+		return fin4;
+	}
+	public void setFin4(String fin4) {
+		this.fin4 = fin4;
+	}
+	public String getPrgNum4() {
+		return prgNum4;
+	}
+	public void setPrgNum4(String prgNum4) {
+		this.prgNum4 = prgNum4;
+	}
+	public String getPpNum4() {
+		return ppNum4;
+	}
+	public void setPpNum4(String ppNum4) {
+		this.ppNum4 = ppNum4;
+	}
+	public String getfOdds4() {
+		return fOdds4;
+	}
+	public void setfOdds4(String fOdds4) {
+		this.fOdds4 = fOdds4;
+	}
+	public String getpTFav4() {
+		return pTFav4;
+	}
+	public void setpTFav4(String pTFav4) {
+		this.pTFav4 = pTFav4;
+	}
+
+}

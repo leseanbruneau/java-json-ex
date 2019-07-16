@@ -1,0 +1,27 @@
+package com.leseanbruneau;
+
+import java.io.BufferedReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+		String line = "";
+		String[] raceData = new String[29];
+		RaceResultBean horseRace = new RaceResultBean();
+		List<RaceResultBean> horseRaces = new ArrayList<RaceResultBean>();
+		
+		File inFile = new File("~/temp/201907011-01.txt");
+		File outFile = new File("~/temp/201907011-01.json");
+		
+		BufferedReader brRaceResultsList = new BufferedReader(new FileReader(inFile));
+		
+		line = brRaceResultsList.readLine();
+		
+		System.out.println(line);
+
+	}
+
+}

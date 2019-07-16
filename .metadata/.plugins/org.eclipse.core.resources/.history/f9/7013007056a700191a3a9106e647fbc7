@@ -1,0 +1,29 @@
+package com.leseanbruneau;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class MainJsonToCsvApp {
+
+	public static void main(String[] args) throws IOException {
+		
+		//byte[] jsonData = Files.readAllBytes(Paths.get("/home/sar/temp/JSONSampleFile.json"));
+		
+		ObjectMapper mapper = new ObjectMapper();
+		
+		InputStream fileInputStream = new FileInputStream("/home/sar/temp/JSONSampleFile.json");
+		RaceResultBean[] raceResults = mapper.readValue(fileInputStream, RaceResultBean[].class);
+		fileInputStream.close();
+		
+		for(int i = 0; i < raceResults.length; i++) {
+			RaceResultBean raceResult = raceResults[i];
+			System.out.println("Race Number: " + raceResult.getRaceNum());
+		}
+		
+
+	}
+
+}
