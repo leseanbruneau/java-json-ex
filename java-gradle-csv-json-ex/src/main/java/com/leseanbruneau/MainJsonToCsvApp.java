@@ -14,11 +14,11 @@ public class MainJsonToCsvApp {
 		
 		ObjectMapper mapper = new ObjectMapper();
 		
-		InputStream fileInputStream = new FileInputStream("/home/oak/temp/JSONInputFile.json");
+		InputStream fileInputStream = new FileInputStream("/home/sar/w2/java-json-ex/sampleData/JSONInputFile.json");
 		RaceResultBean[] raceResultsList = mapper.readValue(fileInputStream, RaceResultBean[].class);
 		fileInputStream.close();
 		
-		OutputStream fileOutputStream = new FileOutputStream("/home/oak/temp/CSVOutputFile.csv");
+		OutputStream fileOutputStream = new FileOutputStream("/home/sar/w2/java-json-ex/sampleData/CSVOutputFile.csv");
 		
 		for(RaceResultBean raceResult : raceResultsList) {
 			

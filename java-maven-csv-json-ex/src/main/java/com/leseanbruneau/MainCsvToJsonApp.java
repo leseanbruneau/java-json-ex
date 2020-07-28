@@ -19,8 +19,8 @@ public class MainCsvToJsonApp {
 		RaceResultBean horseRace = new RaceResultBean();
 		List<RaceResultBean> horseRaces = new ArrayList<RaceResultBean>();
 		
-		File inFile = new File("/home/oak/temp/CSVInputFile.csv");
-		File outJSONFile = new File("/home/oak/temp/JSONOutputFile.json");
+		File inFile = new File("/home/sar/w2/java-json-ex/sampleData/CSVInputFile.csv");
+		File outJSONFile = new File("/home/sar/w2/java-json-ex/sampleData/JSONOutputFile.json");
 		
 		BufferedReader brRaceResultsList = new BufferedReader(new FileReader(inFile));
 		
