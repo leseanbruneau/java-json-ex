@@ -25,7 +25,7 @@
 		<dependency>
   			<groupId>com.fasterxml.jackson.core</groupId>
   			<artifactId>jackson-databind</artifactId>
-  			<version>2.11.1</version>
+			<version>2.14.2</version>
 		</dependency>
 	</dependencies>
 
@@ -37,7 +37,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<release>11</release>  <!--or <release>8</release> -->
+					<release>17</release>  <!--or <release>8</release> -->
 				</configuration>
 			</plugin>
 		</plugins>
